@@ -1,0 +1,15 @@
+=== Outsourcing
+
+One of big advantages of using the Yocto Project is freedom to choose what better fits our project.
+
+Sometimes we want to keep all the development in-house and this is a perfectly fine option. However depending on the project needs we may end with limited resources or knowledge in a specific area, this is where the outsourcing comes to help.
+
+The outsourcing strategy can enable us to meet a hard deadline or alleviate our technical team to focus in the product differentiation points.
+
+A commonly outsourced task is the driver development of a specific device which is not yet supported in the Linux kernel, possibly reducing the driver development total cost when compared with the in-house development.
+
+Even though outsourcing  the proposed roles may seem unlikely, it might make a lot of sense as the roles cluster tasks that may not be the focus of our product or team. The Legal Authority role is the easiest one to see as a candidate for outsourcing as a legal company may have a more extensive experience in the legal terms and the product does not have its value in its legal attribute. However, it is not so clear to understand that maybe the System Architect role would fit in the outsourcing as well.
+
+TIP: The ecosystem formed around the Yocto Project facilitates the outsourcing when necessary as several companies are capable of offering services and products which use the Yocto Project tools and its guidelines.
+
+The System Architect should have the inner knowledge of the Yocto Project tools in order to make the needed changes for the product and choose the best alternative when deciding over technical options. In some specific projects, relying in a company with this inner expertise can enable the product development platform in a shorter time and help to reduce the risk in the platform related decisions.

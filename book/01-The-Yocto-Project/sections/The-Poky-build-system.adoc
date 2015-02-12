@@ -1,0 +1,37 @@
+=== The Poky build system
+
+The Yocto Project computing machine represented in <<yp-input-output>> refers to the Yocto Project's reference build system, called _Poky_, which is composed by a set of files to provide the information required for the build orchestration tool's work.
+
+NOTE: The _build systems_ has been originally designed to automate build tasks, ultimately growing to include other tasks not directly related to build such as generation of license manifest, automated runtime test, supported in Poky build system.
+
+The Poky build system is designed to be platform-independent and make heavily use of cross-compiling environments. The reasoning for these characteristics is to ensure flexibility for the development and the use of different target platforms (independently of the architecture). The Poky build system is composed by the _BitBake tool_ and a default set of _metadata_ (see <<poky-compact-overview>>).
+
+[[poky-compact-overview]]
+.The Poky build system overview
+image::poky-compact-overview.png[align=center, scaledwidth="100%"]
+
+Metadata:: Is a collection of files written in a mix of _Shell Script_ and _Python_, informing the steps needed to build, download the source code and other tasks related to a specific software application or library;
+
+BitBake tool:: Is the build orchestration tool. It is responsible to generate, order and run the tasks based on the information gathered from the metadata files.
+
+Those blocks provides the mechanisms for putting together thousands of open source projects, vendor specific extensions or even proprietary pieces to form a fully customizable, complete, and coherent Linux software stack.
+
+==== A closer look into the Metadata block
+
+A closer look at the Metadata block of <<poky-compact-overview>> reveal two sub-modules that are critical to better understand how the Poky build system is composed. The two sub-modules, the OpenEmbedded-Core and Yocto Project specific metadata, are shown in the <<poky-overview>>:
+
+[[poky-overview]]
+.The Poky build system
+image::poky-overview.png[align=center, scaledwidth="100%"]
+
+Those sub-modules can be understood as:
+
+OpenEmbedded-Core:: It is the core infrastructure for the cross-compilation environment and offers the basic set of applications, libraries and utilities ready to used in Linux-based operating systems.
++
+There are support for six different processor architectures (_ARM_, _ARM64_, _x86_, _x86-64_, _PowerPC_, _MIPS_ and _MIPS64_) in the system at time of writing and all tests and development is done using emulated machines, in _QEMU_.
++
+This set of metadata is common among all different OpenEmbedded-derived systems and one of the most prominent is the Yocto Project which includes the OpenEmbedded-Core into the Poky build system. Its maintenance is shared between the Yocto Project and the OpenEmbedded Project.
+
+Yocto Project's specific:: It is provided by the Yocto Project to configure the build system to fulfill Yocto Project needs and includes a set of _board support packages_ (BSP) that is the reference BSP used by the Yocto Project Quality Assurance Team when testing the Yocto Project before every release.
+
+The Yocto Project, and as consequence the Poky build system, has a new release every April and October, a six months release cycle. This cadence and predictability is important to allow silicon and software vendors to plan their release and development schedule accordingly.

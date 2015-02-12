@@ -1,0 +1,255 @@
+= Diving into the Yocto Project
+:toc: left
+
+== The Yocto Project
+
+ * What is the Yocto Project?
+ ** In/out black box
+ * The Yocto Project main components
+ ** Poky
+ ** BitBake
+ ** OpenEmbedded-Core
+ *** How OE-Core interacts with Poky (and vice-versa)
+ * The OpenEmbedded Project and the Yocto Project alliance
+
+== What the Yocto Project buys me?
+
+ * The Motivation for using Yocto Project
+ ** Focus on the product
+ ** Standarization
+ ** Reproducibility
+ ** Platform reuse
+ ** Flexibility
+ ** Risk reduction
+
+== Real World use workflows, explained
+
+ * Introduction - what is workflow
+ * Working with different roles
+ ** Application Developer
+ ** Device Driver Developer
+ ** System Architect
+ * Possibles real world workflows
+ ** Small local teams
+ ** Big local teams
+ ** Big teams with remote members
+ * License compliance and management
+ * Development Outsourcing
+
+== Baking Our Poky-based system
+
+ * What is a Poky-based System
+ * Overview of a Poky-based system
+ * Configuring a host system
+ * Poky installation
+ ** Debian
+ ** Fedora
+ * Downloading the Poky source code
+ * The build environment
+ * Using Toaster as a build tool
+ ** How to use it to bake an image
+ ** The images in QEMU
+ *** What is QEMU
+ *** Using QEMU to run an image
+ * Using BitBake to Bake an Image
+ ** The local.conf file
+ ** The Build of an image with BitBake
+ ** Running images in QEMU
+
+== Poky-based SDKs
+
+ * The software development kit
+ * ADT development
+ * Generic SDK – meta-toolchain
+ ** Meta-toolchain with Toaster
+ ** Meta-toolchain with BitBake
+ * Custom SDK use
+ ** Why to customize the SDK for a product
+ ** Common uses
+ * Working with a Poky-based SDK
+
+== Integration of an IDE with a Poky-based SDK
+
+ * Eclipse
+ * Qt Creator
+ ** Qt 4.8
+
+== The Temporary Build Directory
+
+ * The build directory in detail
+ * The Construction of the build directory
+ * The temporary build directories
+ ** The work directory
+ ** The sysroot directories
+
+== BitBake Metadata Syntax
+ * The BitBake tool
+ * Introduction of second part of the book
+ * Using metadata
+ * Working with metadata
+ * The basic variable setting
+ * Variable expansion
+ * Setting a default value using ?=
+ * Setting a default value using ??=
+ * Immediate variable expansion
+ * Appending and prepending
+ * Conditional metadata set
+ * Conditional appending
+ * File inclusion
+ * Python variable expansion
+ * Defining executable metadata
+ * Defining Python functions in the global namespace
+ * The inheritance system
+ * Exemplifying metadata syntax using recipes
+ * What is a recipe
+ * Making a recipe
+ ** Simple library
+ ** Simple application
+ ** Real examples
+
+== The BitBake's Metadata Relationship
+
+ * Exploring metadata
+ * Parsing metadata
+ * Dependencies
+ * Preferring and providing recipes
+ * The BitBake's tasks
+
+== The BitBake's Fetch system
+
+ * Fetching the source code
+ * Remote file downloads
+ * Git repositories
+ * Other repositories
+ * Optimizing the source code download
+ * Disabling network access
+
+== Package support backends
+ * Using supported package formats
+ * List of supported package formats
+ * Choosing a package format
+ * Running code during package installation
+ * Generating a root filesystem image
+ * Explaining package versioning
+ * Package feeds
+ * Using package feeds
+
+== Understanding shared state cache
+
+ * What is the Shared State Cache?
+ ** Why the Shared State Cache is needed?
+ * Task checksums
+ ** Identifying why a task checksum does not match
+
+== External Layers
+ * Powering flexibility with layers
+  ** Detailing the layering concept
+  *** Charts
+ * Knowing the types of layers
+ * Detailing the layer's source code
+ * Adding meta layers
+ * Commonly used layers
+
+== Creating Custom Layers
+ * Making a new layer
+ * Adding metadata to the layer
+ * Layer dependencies
+ * Creating an image
+ * Adding a package recipe
+ * Writing a machine definition
+ * Using a custom distribution
+ * Machine features versus distro features
+ * Understanding the variables scope
+
+== Creating your metadata
+ * Creating an image recipe
+  ** image features
+ * Creating your recipe
+  ** Use of classes
+ * Creating a distribution
+  ** Why create a distribution?
+  ** Attention points when making a distribution
+
+== Customizing existing metadata
+ * Common use cases
+ * Adding extra options to recipes based on Autoconf
+ * Applying a patch
+ * Extending tasks
+ * Adding extra files to the existing packages
+ * Understanding file searching paths
+ * Changing recipe feature configuration
+ * Customizing BusyBox
+ * Customizing the linux-yocto framework
+
+== Debugging the metadata
+ * Differentiating metadata and application debugging
+ * Tracking image, package, and SDK contents
+ * Debugging packaging
+ * Logging information during task execution
+ * Utilizing a development shell
+
+== Developing with the Yocto Project's tools
+ * Using an image-based SDK
+ * Developing applications on the target
+ * Good practices when working with Yocto Project
+  ** Homemade Makefile
+  ** Autotools
+  ** Use of separated build directories
+  ** CMake
+  ** pkgconfig
+  ** Common errors found when using build systems
+ * Using Qt5 with the Yocto Project
+  ** packaging applications
+  ** Generating SDK
+  ** Integrating with Qt Creator
+
+== Debugging the target misbehavior
+ * Using the GNU Project Debugger for debugging
+ * Other debugging tools
+  ** ltrace
+  ** strace
+  ** ps
+  ** top
+ * Profiling runtime
+  ** perf
+  ** ftrace
+  ** lttng
+  ** blktrace
+  ** systemtap
+
+== Achieving GPL Compliance
+ * Understanding copyleft
+ * Copyleft compliance versus proprietary code
+ * Some guidelines for license compliance
+ * Managing software licensing with Poky
+ * SPDX on Yocto Project
+ * Commercial licenses
+ * Using Poky to achieve copyleft compliance
+ * License auditing
+ * Providing the source code
+ * Providing compilation scripts and source code modifications
+ * Providing license text
+
+== Booting Our Custom Embedded Linux
+ * Using the Yocto Project with a hardware
+  ** What are the difference in using a QEMU machine against a real hardware
+ * Where to find the right BSP layer for your hardware
+ * Some possible community boards
+  ** BeagleBone Black
+  ** Minnowboard Max
+  ** Raspberry Pi
+ * Wandboard
+ * Exploring the boards
+ * Building an image for the boards
+ * Booting the boards with the SD card
+
+== How to contribute to the Yocto Project
+
+
+== Final Chapter
+ * summarize the book content (as a conclusion)
+ * apologize for missing parts
+ * give the possible next steps
+ * introduce and guide reader to the Yocto Project community
+
+////

@@ -1,0 +1,21 @@
+=== The Yocto Project seen as a Computing Machine
+
+A simple way to understand what are the results of Yocto Project is to represent it as a computing machine. In short, we need to describe our requirements to the Yocto Project tools, those are interpreted and the desired set of outputs are generated. A basic overview of the process done can be seen in <<yp-input-output>>:
+
+[[yp-input-output]]
+.The Yocto Project seen as a Computing Machine
+image::yp-input-output.png[align=center, scaledwidth="100%"]
+
+The input is the set of data describing the requirements we have (e.g. list of applications to install, which architecture to use, etc). After input being interpreted by the Yocto Project tools we get one or more outputs. When we need to get a board running a tailored Linux-based operating system we can get all the required outputs generated for us directly, including:
+
+Bootloader:: The bootloader is responsible to initialize the underlying hardware (when necessary), load the Linux kernel and starts it. There are several bootloaders available for use in the Yocto Project such as U-Boot, GRUB, Syslinux and etc;
+
+Linux kernel image:: It is the Linux kernel image which runs in the target machine, and is customized for it focusing in the intended use case (e.g. adding or removing features and/or drivers as necessary);
+
+Root filesystem:: The root filesystem, usually called _rootfs_, is the bundle containing the files, core components and libraries necessary to allow the operating system to run. On top of it, it may include another applications and files to support a specific use case.
+
+Besides those, other example of possible outputs are:
+
+* list of licenses of packages included in the rootfs;
+* the sources for distribution to comply to the copyleft requirements;
+* a toolchain for use with the platform.

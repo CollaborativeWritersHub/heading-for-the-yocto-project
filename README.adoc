@@ -1,0 +1,29 @@
+= Embedded Linux Development with Yocto Project Bible
+
+Welcome to the first edition of the Embedded Linux Development with Yocto Project Bible book.
+
+This book is open source under a Creative Commons license.
+
+== How To Generate the Book
+
+To generate e-book files is to do so manually with Asciidoctor. If you run the following you _may_ actually get HTML, Epub, Mobi and PDF output files:
+
+----
+$ bundle exec rake build
+(in /repo/ypbook)
+Converting to HTML...
+ -- HTML output at book/Dive-into-the-Yocto-Project.html
+Converting to EPub...
+ -- Epub output at book/Dive-into-the-Yocto-Project.epub
+Converting to Mobi (kf8)...
+ -- Mobi output at book/Dive-into-the-Yocto-Project.mobi
+Converting to PDF... (this one takes a while)
+asciidoctor: WARNING: conversion missing in backend pdf for pass
+ -- PDF  output at book/Dive-into-the-Yocto-Project.pdf
+----
+
+This uses the `asciidoctor`, `asciidoctor-pdf` and `asciidoctor-epub` projects.
+
+== Contributing
+
+If you'd like to help out by making a change or contributing a translation, take a look at the link:CONTRIBUTING.md[contributor's guide].

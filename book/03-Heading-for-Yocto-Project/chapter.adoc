@@ -1,0 +1,24 @@
+== Heading for Yocto Project
+
+At first glance, the way our companies and projects can use the Yocto Project are not obvious because it is very flexible and adapts for different team's sizes and workflows and it is usually seen just as a task automation tool.
+
+In this chapter we cover some possible workflows and provide some hints for the teams and projects organization of different sizes, in a way to adapt the common software development mindset to the Yocto Project framework. The following topics are covered in this chapter:
+
+* The common software development workflow
+* An approach to organize the software development
+* A practical view on the roles applicability on the Yocto Project framework
+* The possible benefits of a strategic use of outsourcing
+
+include::sections/Planning-for-Yocto-Project.adoc[]
+
+include::sections/Outsourcing.adoc[]
+
+:numbered!:
+=== Summary
+:numbered:
+
+The software development organization can be tough. Being very flexible and adapting well for projects and team of different sizes, the Yocto Project contributes in a good way to alleviate it.
+
+In this chapter we understand how to apply the Yocto Project framework to the common software development workflow clustering the needed tasks across the team members in a way to better use the Yocto Project flexibility and power. We see the reasons why outsourcing can be beneficial for a project and how Yocto Project helps us on that task.
+
+Next chapter TODO will be interesting as we get our hands dirt for the first time and get an image built.

@@ -1,0 +1,26 @@
+== Benefits for your products
+
+The Yocto Project has been adopted by several companies, organizations and individuals, but why?
+
+In this chapter some of the reasons why people are adopting the Yocto Project are shown. More than fasten the time to market, Yocto Project helps to reduce some of the inherent risks of new products developments. Some of covered topic are:
+
+* How the Yocto Project enables us to focus in the product;
+* Why the risks are reduced when using the Yocto Project;
+* How to shorten the development effort for new products using the Yocto Project;
+* What are the mechanisms available in the Yocto Project to assist companies' legal departments.
+
+include::sections/The-wheel-reinventing-disease.adoc[]
+
+include::sections/Risk-reduction.adoc[]
+
+include::sections/License-compliance-and-management.adoc[]
+
+:numbered!:
+=== Summary
+:numbered:
+
+The main goal of this chapter is to describe why to use Yocto Project and explain why there are so many developers and companies adopting it.
+
+The license compliance and management aids available in the Yocto Project has been briefly discussed to show how they can help companies in several aspects, not only the technical specific ones. Other topics is discussed in more detail, such as how the Yocto Project enables us to focus in our product, reduce risks and shorten the development effort.
+
+The next chapter <<Heading for Yocto Project>> describes some workflows on how the Yocto Project can be used. This is particularly important as it guides us on choosing the right base when adopting the Yocto Project in our project or company. It also includes some of the best practices that can be adopted to guide us during this process.

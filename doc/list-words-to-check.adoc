@@ -1,0 +1,6 @@
+. file system -> filesystem
+. will
+. you -> only allowed on tips or notes
+. work load -> workload
+. boot loader -> bootloader
+. meta data -> metadata
