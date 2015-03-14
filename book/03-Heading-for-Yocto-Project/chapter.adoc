@@ -21,4 +21,4 @@ The software development organization can be tough. Being very flexible and adap
 
 In this chapter we understand how to apply the Yocto Project framework to the common software development workflow clustering the needed tasks across the team members in a way to better use the Yocto Project flexibility and power. We see the reasons why outsourcing can be beneficial for a project and how Yocto Project helps us on that task.
 
-Next chapter TODO will be interesting as we get our hands dirt for the first time and get an image built.
+Next chapter <<The Yocto Project community ecosystem>> covers the Yocto Project community ecosystem and presents some guidance on how to participate on the community so newcomers can feel more comfortable being part of it.
