@@ -1,0 +1,9 @@
+=== What is a community
+
+Provide a definition for a community is restricting it. A community is a moving organism and the perception of it vary depending on the background and previous experiences on other communities. For example, some people believe the community is composed just by the people who send code contributions to it, others see the users and partners as part of the community.
+
+TIP:  A general definition for a community may be: a set of people with a common goal.
+
+Most communities has a lot of common aspects and after we feel comfortable inside the very first community and understand its intrinsic social aspects of it, it becomes way easier to participate on others.
+
+Communities can create a lot of different products such as source code, documentation, test results. Those depends on each community. In the Yocto Project community case the community exists through the multiple communication channels (such as mailing lists, IRC channels, conferences), and it produces source code, documentation and test result for several projects.

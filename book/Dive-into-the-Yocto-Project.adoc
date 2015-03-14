@@ -14,3 +14,5 @@ include::01-The-Yocto-Project/chapter.adoc[]
 include::02-Benefits-for-your-products/chapter.adoc[]
 
 include::03-Heading-for-Yocto-Project/chapter.adoc[]
+
+include::04-The-Yocto-Project-community-ecosystem/chapter.adoc[]

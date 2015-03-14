@@ -1,0 +1,23 @@
+== The Yocto Project community ecosystem
+
+One of biggest benefits of the Yocto Project is its community ecosystem, in order to participate of this community it is important to develop the ability to properly communicate and contribute in a synergistic way.
+
+This chapter gathers:
+
+* The main communication channels used across the community
+* Where to report or find information about known issues
+* The expected behavior etiquette
+
+include::sections/What-is-a-community.adoc[]
+
+include::sections/The-Yocto-Projects-communication-channels.adoc[]
+
+include::sections/Documentation.adoc[]
+
+:numbered!:
+=== Summary
+:numbered:
+
+This chapter may seem as taking sand to the beach for more experienced Free Software developers or long standing professional which are used to participate to communities however it is a general material for newcomers as the community ecosystem which surrounds the Yocto Project is one of the project’s biggest benefits. It consolidates the initial steps needed to start participating the Yocto Project community, which communication channels are commonly used by the Yocto Project community and general guidelines about good-practices while communicating across these channels.
+
+Next chapter TODO is interesting as we get our hands dirt for the first time and get an image built.
