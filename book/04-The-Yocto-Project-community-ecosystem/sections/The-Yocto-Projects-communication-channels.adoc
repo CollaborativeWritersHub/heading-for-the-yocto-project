@@ -2,12 +2,12 @@
 
 The Yocto Project community has a lot of similarities with the Linux kernel community as it congregates companies, other open source projects and individuals. For someone used to participate on these communities, it may be clear how to act, however it is important to bear in mind that each community has its own particularities and communication channels.
 
-The people involved on the development of the Yocto Project are distributed across the globe. The face-to-face meetings, as common in most huge open source projects are infeasible most of times. Sometimes, there are global events and people get to know each other but the day-by-day communication are made using mailing lists.
+The people involved on the development of the Yocto Project are distributed across the globe. The face-to-face meetings, as common in most huge open source projects are infeasible most of times. Sometimes, there are global events and people get to know each other but the day-by-day communication is made using mailing lists.
 
-TIP: The list of all community mailing lists, including the BSP’s related ones, can be see at:
+TIP: The list of all community mailing lists, including the BSP’s related ones, can be seen at:
 https://www.yoctoproject.org/tools-resources/community/mailing-lists
 
-The Yocto Project being an umbrella for different projects has different mailing lists for each of those projects. The most important mailing lists can be seen at table <<The Yocto Project's mailing lists>>.
+The Yocto Project, being an umbrella for different projects, has different mailing lists for each of those projects. The most important mailing lists can be seen at table <<The Yocto Project's mailing lists>>.
 
 .The Yocto Project's mailing lists
 [cols="2*"]
@@ -16,7 +16,6 @@ h|Name h|Description
 |link:https://lists.yoctoproject.org/listinfo/yocto[Yocto Project Discussions] |General discussion mailing list regarding the Yocto Project. If you don’t know which mailing list to use, use this one.
 
 |link:https://lists.yoctoproject.org/listinfo/poky[Poky Discussions] |Discussions about the Poky build system and the patches regarding the Poky distribution.
-
 
 |link:http://lists.openembedded.org/mailman/listinfo/openembedded-core[OpenEmbedded Core Developers] |The OpenEmbedded-Core mailing list. This is where the development of the build system core aspects are discussed and patches are submitted.
 
@@ -27,14 +26,14 @@ h|Name h|Description
 
 As every social group, we should respect some set of guidelines to avoid embarrassment while interacting with other community members.
 
-In huge open source community, respect of guidelines helps a lot in getting easily integrated in the community and gather the attention of the others. It is very common when we face an issue we has an impulse to ask for help immediately however to show respect to the others’ community members we should do a minimal research for a solution in usual search engines and mailing list archives so we don’t ask the very same question which has been answered many times in past.
+In huge open source communities, respect of guidelines helps a lot in getting easily integrated to the community and gather the attention of others. It is very common when we face an issue we have an impulse to ask for help immediately.  However, to show respect to the other community members, we should do a minimal research for a solution in usual search engines and mailing list archives, so we don't ask the very same question which has been answered many times.
 
 When we cannot find an answer for our doubt, the community mailing lists can be of help. Here we should bear in mind some, simple but important, guidelines:
 
-Keep it simple:: Explain in a simple way the problem you’ve been facing and a simple step-by-step on how to reproduce the same. People on list can guide you if the log is needed or not, do not flood the mailing list with lot of attachments, formatted log and pictures.
+Keep it simple:: Explain in a simple way the problem you've been facing and a simple step-by-step description on how to reproduce the issue. People on the list can guide you if the log is needed or not -- do not flood the mailing list with lot of attachments, formatted log and pictures.
 
-Be gentle:: People on the mailing list does not have the duty to help you. When they does it, they are doing in a good will.
+Be gentle:: People on the mailing list do not have the duty to help you. When they do it, they are doing in a good will.
 
-Make the reader’s life easier:: Instead of doing a top-posting, the inline replying style makes the communication much easier and effective. The use of plan test and pasting tools (to avoid attachment of logs and pictures) are also very advised.
+Make the reader's life easier:: Instead of doing a top-post, the inline replying style makes the communication much easier and effective. The use of plan text and pasting tools (to avoid attachment of logs and pictures) is also very advised.
 
-Those guidelines are a subset of what is the most important points people appreciates in Yocto Project community. The community version can be accessed at link:https://wiki.yoctoproject.org/wiki/Community_Guidelines[the Yocto Project’s wiki].
+Those guidelines are a subset of what the most important points people appreciate in Yocto Project community are. The community version can be accessed at link:https://wiki.yoctoproject.org/wiki/Community_Guidelines[the Yocto Project’s wiki].

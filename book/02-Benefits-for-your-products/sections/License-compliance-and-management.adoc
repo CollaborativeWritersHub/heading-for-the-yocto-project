@@ -1,11 +1,11 @@
 === License compliance and management
 
-The Yocto Project aids the license compliance and management in products. It does not inform us what is required to be compliant with one or more licenses but produces a set of outputs which helps our legal team and technical department to do that.
+The Yocto Project aids the license compliance and management in products. It does not inform us what is required to be compliant with one or more licenses, but it produces a set of outputs which help our legal team and technical department to do that.
 
-Essentially it help us to:
+Essentially, it help us to:
 
-* Avoid unnoticed license changes
-* List the licenses included in a product
+* Catch unnoticed license changes
+* List licenses included in a product
 * Collect the source code for distribution, due license requirement
 * Avoid use of specific license in a product (e.g. GPLv3)
 

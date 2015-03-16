@@ -1,21 +1,21 @@
 === Risk reduction
 
-We assume risks all the time. As in life, we should mitigate them when working in product development. The Yocto Project use helps us to reduce some risks.
+We assume risks all the time. As in life, we should mitigate them when working on product development. The Yocto Project use helps us to reduce some risks.
 
-The _build system platform reuse_, as consequence of Yocto Project use, allow our product to rely on a strong and tested development platform which has been used by several companies and developers. As Issac Newton says, we can see further by standing on the shoulders of giants.
+The _build system platform reuse_, as consequence of Yocto Project use, allows our product to rely on a strong and tested development platform which has been used by several companies and developers. As Issac Newton says, we can see further by standing on the shoulders of giants.
 
-Besides the build system platform reuse, the Yocto Project allows us to design a product platform. The _product platform_  allows us to build a base for product development reducing the effort spent on every new product development (see <<yp-as-a-platform>>), ease conformance to company standards and general product assumptions, such as artwork, company's base libraries and so on.
+Besides the build system platform reuse, the Yocto Project allows us to design a product platform. The _product platform_  allows us to build a base for product development reducing the effort spent on every new product development (see <<yp-as-a-platform>>), eases conformance to company standards and general product assumptions, such as artwork, company's base libraries and so on.
 
 [[yp-as-a-platform]]
 .The Yocto Project being used as a product platform
 image::yp-as-a-platform.png[align=center, scaledwidth="100%"]
 
-By comparing <<one-product-one-build-system>> and <<yp-as-a-platform>> it is clear the difference in how the build system fits into the product. When we share the build system across two or more products, it reduces significantly the cost and development time spent in the build system.
+By comparing <<one-product-one-build-system>> and <<yp-as-a-platform>> the differences on how the build system fits into the product are clear. When we share the build system across two or more products, it significantly reduces the cost and development time spent in the build system.
 
-The Yocto Project's flexibility is essential when the same build system is shared among products. It gives us the tooling required for product's specific requirements to be satisfied while ease the reuse of common ones.
+The Yocto Project's flexibility is essential when the same build system is shared among products. It gives us the tooling required for product's specific requirements to be satisfied while easing the reuse of common ones.
 
 TIP: The Yocto Project's build system used as a product platform together with its flexibility are the perfect combination to lead to risk reduction.
 
-One of the most important design characteristics of Yocto Project is the reproducibility. Yocto Project's tools produces the same output every time it runs and has several mechanisms to verify it. The reproducibility allows us to reliably make products based on the Yocto Project's tools and scale the development across different teams as the built result is always the same.
+One of the most important design characteristics of Yocto Project is the reproducibility. Yocto Project's tools produces the same output every time they run and provide several mechanisms to verify it. The reproducibility allows us to reliably make products based on the Yocto Project's tools and scale the development across different teams as the built result is always the same.
 
-The wide adoption we see in Yocto Project's community is another important point of risk reduction. This community helps to keep the stable versions of the Yocto Project very solid, including bug fixes and security updates when applicable while actively develops the next version ensuring the platform is up to the challenges of tomorrow.
+The wide adoption we see in the Yocto Project's community is another important point of risk reduction. This community helps to keep the stable versions of the Yocto Project very solid, including bug fixes and security updates when applicable while it actively develops the next version, ensuring the platform is up to the challenges of tomorrow.

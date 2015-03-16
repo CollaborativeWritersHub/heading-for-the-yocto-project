@@ -5,7 +5,7 @@ The Yocto Project started as a collaboration of many hardware manufacturers, ope
 [quote, The Linux Foundation]
 The Yocto Project provides open source, high-quality infrastructure and tools to help developers create their own custom Linux distributions for any hardware architecture, across multiple market segments. The Yocto Project is intended to provide a helpful starting point for developers.
 
-The workgroup is composed by a set of members that supports the project and are part of the Advisory Board. Among those are silicon manufacturers, software vendors and open source projects. The hosting and management of the Yocto Project by the Linux Foundation is, therefore, strategic to guarantee project independence.
+The workgroup is composed by a set of members that support the project and are part of the Advisory Board. Among those are silicon manufacturers, software vendors and open source projects. The hosting and management of the Yocto Project by the Linux Foundation is, therefore, strategic to guarantee project independence.
 
 TODO:: The Yocto Project Advisory Board members (yp-ab) list: http://bit.ly/1wXdsYI; add the citation.
 
@@ -13,6 +13,6 @@ The group of companies supporting the project is growing in a fast pace as can b
 
 TODO:: Get number from 2010 up to now about Advisory Board members and make a graphic with it
 
-Essentially companies that acts on same market come together and cooperate in a symbiotic manner, helping make the project compatible with most available processors.
+Essentially, companies that act on the same market come together and cooperate in a symbiotic manner, helping make the project compatible with most available processors.
 
-In addition to the workgroup, the Yocto Project is an open source project that provides templates, tools and methods to help companies and individuals to create tailored Linux-based operating systems regardless of the hardware architecture. The open source part of the project is managed by a Linux Foundation fellow to ensure that the technical decision are not made to benefit a specific member of the workgroup.
+In addition to the workgroup, the Yocto Project is an open source project that provides templates, tools and methods to help companies and individuals create tailored Linux-based operating systems regardless of the hardware architecture. The open source part of the project is managed by a Linux Foundation fellow to ensure that the technical decisions are not made to benefit a specific member of the workgroup.

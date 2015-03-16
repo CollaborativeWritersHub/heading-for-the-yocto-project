@@ -4,13 +4,13 @@ The Yocto Project computing machine represented in <<yp-input-output>> refers to
 
 NOTE: The _build systems_ has been originally designed to automate build tasks, ultimately growing to include other tasks not directly related to build such as generation of license manifest, automated runtime test, supported in Poky build system.
 
-The Poky build system is designed to be platform-independent and make heavily use of cross-compiling environments. The reasoning for these characteristics is to ensure flexibility for the development and the use of different target platforms (independently of the architecture). The Poky build system is composed by the _BitBake tool_ and a default set of _metadata_ (see <<poky-compact-overview>>).
+The Poky build system is designed to be platform-independent and make heavy use of cross-compiling environments. The reasoning for these characteristics is to ensure flexibility for the development and the use of different target platforms (independently of the architecture). The Poky build system is composed by the _BitBake tool_ and a default set of _metadata_ (see <<poky-compact-overview>>).
 
 [[poky-compact-overview]]
 .The Poky build system overview
 image::poky-compact-overview.png[align=center, scaledwidth="100%"]
 
-Metadata:: Is a collection of files written in a mix of _Shell Script_ and _Python_, informing the steps needed to build, download the source code and other tasks related to a specific software application or library;
+Metadata:: Is a collection of files written in a mix of _Shell Script_, _Python_ and a custom configuration language, informing the steps needed to build, download the source code and other tasks related to a specific software application or library;
 
 BitBake tool:: Is the build orchestration tool. It is responsible to generate, order and run the tasks based on the information gathered from the metadata files.
 
@@ -28,7 +28,7 @@ Those sub-modules can be understood as:
 
 OpenEmbedded-Core:: It is the core infrastructure for the cross-compilation environment and offers the basic set of applications, libraries and utilities ready to used in Linux-based operating systems.
 +
-There are support for six different processor architectures (_ARM_, _ARM64_, _x86_, _x86-64_, _PowerPC_, _MIPS_ and _MIPS64_) in the system at time of writing and all tests and development is done using emulated machines, in _QEMU_.
+Six different processor architectures (_ARM_, _ARM64_, _x86_, _x86-64_, _PowerPC_, _MIPS_ and _MIPS64_) are supported in the system at the time of this writing, and all tests and development is done using emulated machines, on _QEMU_.
 +
 This set of metadata is common among all different OpenEmbedded-derived systems and one of the most prominent is the Yocto Project which includes the OpenEmbedded-Core into the Poky build system. Its maintenance is shared between the Yocto Project and the OpenEmbedded Project.
 

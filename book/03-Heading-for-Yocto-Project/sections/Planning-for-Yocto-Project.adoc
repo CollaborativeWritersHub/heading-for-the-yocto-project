@@ -1,10 +1,10 @@
 === Planning for Yocto Project
 
-There are several distinct approaches used in software development, a common phase in most of them is the feature specification which is critical for the understanding of all involved requirements.
+There are several distinct approaches used in software development. A common phase in most of them is the feature specification, which is critical for the understanding of all involved requirements.
 
 One of the biggest benefits of the Yocto Project is the flexibility. This is noticed not only on the build system itself but also on how we can organize the Yocto Project's use in our team.
 
-Having all possible requirement on mind, we can cluster them into three groups:
+Having all possible requirement in mind, we can cluster them into three groups:
 
 Marketing requirement:: The product requirements which come from the business units, management or marketing teams can easily fit here. For example, general product features related to market segmentation, legal constraints and so on.
 
@@ -16,7 +16,7 @@ Those aspects are mainly driven by both marketing and application requirements.
 
 Specifying a software using a list of requirements allows us to have the task list for the software development defined based on those requirements.
 
-The developers number in a team can vary dramatically, however the tasks needed to be completed for the product development are almost the same no matter the team's size. The difference lays on the team organization and the task separation. The tasks are, essentially:
+The number of developers in a team may vary dramatically, however the tasks needed to be completed for the product development are almost the same, no matter the team's size. The difference lays on the team organization and the task separation. The tasks are, essentially:
 
 * Board bring-up;
 * Bootloader development;
@@ -40,7 +40,7 @@ Those roles can be described as:
 
 Low Level Developer:: Work with tasks related to the Linux kernel and bootloader, driver development or customization and other tasks which are closely connected to the hardware itself and its components.
 
-Application Developer:: Focused in building and adapting the applications used specific in the product. May have a wide pool of application knowledge, as each product can use one different application technology. This role is very important as it works in the product's differentiation point.
+Application Developer:: Focused on building and adapting the applications used specifically for the product. May have a wide pool of application knowledge, as each product can use one different application technology. This role is very important as it works on the product's differentiation point.
 
 System Architect:: The central point of contact for both Low Level Developer and Application Developer. It is responsible to:
 +
@@ -52,27 +52,27 @@ System Architect:: The central point of contact for both Low Level Developer and
 
 Legal Authority:: The one with the legal responsibility to determine the product's legal constraints and goals.
 
-Those roles requires a high level of communication when executed by different team members as can be see at <<overall-datapath>>.
+Those roles require a high level of communication when executed by different team members as can be see at <<overall-datapath>>.
 
 [[overall-datapath]]
 .The roles communicate with each other
 image::overall-datapath.png[align=center]
 
-The same approach used in the software development can be used when developing software using Yocto Project, the kind of requirements and list of tasks does not vary dramatically.
+The same approach used for software development can be used when developing software using Yocto Project.  The kind of requirements and list of tasks does not vary dramatically.
 
-Those roles can be assigned to one or more team members and heavily depends on the team size. The Yocto Project can assist us to optimize the team organization, being it a team composed of two members or one composed of a hundred developers.
+Those roles can be assigned to one or more team members and heavily depend on the team size. The Yocto Project can assist us to optimize the team organization, being it a team composed of two members or one composed of a hundred developers.
 
 ==== Enhancing the Software development workflow
 
 The just presented roles are being executed along the project cycle although their assignment to team members may vary with time. The Yocto Project's tools assists with the possible role separation, being flexible to be used in a wide variety of project.
 
-Very small teams commonly concentrate all the development tasks in a small number of developers. It is common to have small projects with a single person doing all the development tasks. On the other side, bigger projects demand parallel work and responsibilities separation, which are one of the driving forces to shorten the time to market of new products.
+Very small teams commonly concentrate all the development tasks on a small number of developers. It is common to have small projects with a single person doing all the development tasks. On the other side, bigger projects demand parallel work and responsibilities separation, which are one of the driving forces to shorten the time to market of new products.
 
-Although the role separation is possible to be done using any build system, it can be facilitated or not by the build system choice. Some build systems enforces a clear overlap of the roles (e.g. Low Level Developer and System Architect).
+Although the role separation is possible to be done by using any build system, it can be facilitated (or not) by the build system choice. Some build systems assume overlap of roles (e.g., Low Level Developer and System Architect).
 
-In the Yocto Project case, it is clear that the role separation strategy is part of its design principals and has been taken to a high level. How it is applied in a project depends on how we organize our team. This gives us freedom to choose how to organize our team, taking into account the project and team specific characteristics. Now the overlapping of roles can be used for our convenience, not due build system tools limitations.
+In the Yocto Project case, it is clear that the role separation strategy is part of its design principles and has been taken to a high level. How it is applied to a project depends on how we organize our team. This gives us freedom to choose how to organize our team, taking into account the project and team specific characteristics. Now the overlapping of roles can be used for our convenience, not due to build system tools limitations.
 
-We can map the roles to the type of artifacts or components that it covers, as can be seen at the table:
+We can map roles to the type of artifacts or components that they cover, as can be seen at the table:
 
 .Roles and activities map
 [cols="2*", options="header"]
@@ -93,14 +93,14 @@ We can map the roles to the type of artifacts or components that it covers, as c
 |Define the legal constrains and the needed artifacts to the licenses compliance, working together with all the other roles to meet the necessary requirements and look for alternatives.
 |===
 
-The roles commonly has an inherent hierarchy as shown at <<hierarchy>>. It may vary from a team organization to another, however bearing it on mind may help in the team organization.
+The roles commonly have an inherent hierarchy as shown at <<hierarchy>>. It may vary from a team organization to another, however bearing it on mind may help in the team organization.
 
 [[hierarchy]]
 .The proposed hierarchy
 image::hierarchy.png[align=center]
 
-In this scenario, the inclusion of domain experts can be easily applied. The role assigned to the domain expert, depends on the necessary expertise we are looking for.
+In this scenario, the inclusion of domain experts can be easily applied. The role assigned to the domain expert depends on the required expertise we are looking for.
 
-TIP: A media streaming expert can act as Application Developer in case the project need an media streaming performance improvement or  work as Legal Authority consultant when an alternative is needed for a legal constraint of a media code.
+TIP: A media streaming expert can act as Application Developer in case the project needs a media streaming performance improvement or work as Legal Authority consultant when an alternative is needed for a legal constraint of a media code.
 
-The Yocto Project design eases the role separation and overlapping. We are the ones in charge to decide how to better organize the team for our accordingly to our project or company requirements.
+The Yocto Project design eases the role separation and overlapping. We are the ones in charge to decide how to better organize the team according to our project or company requirements.

@@ -1,20 +1,20 @@
 === The wheel-reinventing disease
 
-One of most common engineers' habit is to reinvent the wheel. Even though it can be an exciting exercise and a learning tool, sometimes it leads only to work duplication and energy waste. The wheel-reinventing disease is specially problematic when it happens inside companies, mainly if it has no relation to its core business.
+One of most common engineers' habit is to reinvent the wheel. Even though it can be an exciting exercise and a learning tool, sometimes it leads to work duplication and energy waste only. The wheel-reinventing disease is specially problematic when it happens inside companies, mainly if it has no relation to its core business.
 
-In a not so distant past the products using Linux, as operating system, had few components besides the kernel. The build systems used at that time were simple and very specialized. It had no intention of becoming a platform or being reusable by several products.
+In a not so distant past the products using Linux, as operating system, had few components besides the kernel. The build systems used at that time were simple and very specialized. They have no intention to become a platform or to be reused by several products.
 
-With this scenario on mind, imagine several companies creating their own build systems (see <<each-company-build-system>>), each one with different requirements and specification. This was a fertile time, when several important technologies and concepts has been developed, at high cost: work duplication.
+With this scenario in mind, imagine several companies creating their own build systems (see <<each-company-build-system>>), each one with different requirements and specification. This was a fertile time, when several important technologies and concepts were developed, at high cost: work duplication.
 
 [[each-company-build-system]]
 .The fertile time when each company created their own build system
 image::each-company-build-system.png[align=center, scaledwidth="100%"]
 
-Nowadays custom operating systems has virtually no limits in size and complexity imposing new challenges for the build systems to overcome and increasing the development and maintenance cost of those specialized tools exponentially.
+Nowadays, custom operating systems have virtually no limits in size and complexity, imposing new challenges for the build systems to overcome and increasing the development and maintenance cost of those specialized tools exponentially.
 
-Build systems are commonly underestimated on its inherent complexity, impact over the product development cost and time to market. They are complex piece of software and has huge impact on the amount of work we need to expend in order to accomplish our desired goals.
+Build systems are commonly underestimated on its inherent complexity, impact over the product development cost and time to market. They are complex pieces of software and have huge impact on the amount of work we need to expend in order to accomplish our desired goals.
 
-The build system choice really impact the final product development cost and maintenance as it is a essential part of our product. Even a simple application has a set of instruction for its build which can be understood as a rudimentary build system. The more complex the products are, the more complex are the needed build systems (see <<one-product-one-build-system>>).
+The build system choice really impacts the final product development cost and maintenance as it is a essential part of our product. Even a simple application has a set of instruction for its build which can be understood as a rudimentary build system. The more complex the products are, the more complex are the needed build systems (see <<one-product-one-build-system>>).
 
 [[one-product-one-build-system]]
 .Every product includes a build system
@@ -22,30 +22,30 @@ image::one-product-one-build-system.png[align=center, scaledwidth="100%"]
 
 Due to the always growing complexity of operating systems, several build systems has been developed - some open source, other proprietary - focusing on different requirements subset. The Yocto Project was not the very first tentative to solve the complexity, work duplication and cost dilemma, but one of most successful ones so far.
 
-==== Do not focus in the build system
+==== Do not focus the build system
 
-It made sense to a company to not care about the build system, in the past, when the targeted system was not that complex. When the products had minimal dependency on the software, the build systems played a secondary role in the products development.
+It made sense to a company to not care about the build system, in the past, when the targeted system was not that complex. When products had minimal dependency on the software, build systems played a secondary role in products development.
 
 TIP: If your company core business has no relation to build system development, you shouldn't be concerned about the build system, you should focus on your product.
 
-Usually the products are designed to solve a set of requirements, coming from whether an insight or the marketing team, and involves several applications. The build system plays an essential role satisfying all those requirements. Some are satisfied by specific applications while others are related to the build system itself (see <<build-system-impact>>).
+Usually, products are designed to solve a set of requirements, coming from whether an insight or the marketing team, and involves several applications. The build system plays an essential role in satisfying all those requirements. Some are satisfied by specific applications while others are related to the build system itself (see <<build-system-impact>>).
 
 [[build-system-impact]]
 .The impact build system cause to the product
 image::build-system-impact.png[align=center, scaledwidth="100%"]
 
-The build system is a required tool which should serve your product purpose. It should assist your team and your company to avoid the usual pitfalls, target straight to the point your key features and don't lost time handling the same problem over and over again.
+The build system is a required tool which should serve your products' purposes. It should assist your team and your company to avoid the usual pitfalls, target your key features straight to the point and don't waste time handling the same problem over and over again.
 
 ==== Widely adoption matters
 
-With the aim of reducing the work duplication, many companies and developers started to focus on their preferred build systems enhancing these as needed. The Yocto Project being one of them, it started to be seen as flexible enough to aggregate different assumptions and goals. This leaded to a widely adoption among the developers (see <<different-companies-adopting-yp>>).
+With the aim of reducing the work duplication, many companies and developers started to focus on their preferred build systems enhancing them as needed. The Yocto Project, being one of them, started to be seen as a flexible enough option to aggregate different assumptions and goals. This leaded to a wide adoption among the developers (see <<different-companies-adopting-yp>>).
 
 [[different-companies-adopting-yp]]
 .Several different companies has adopted the Yocto Project
 image::different-companies-adopting-yp.png[align=center, scaledwidth="100%"]
 
-From a business perspective, the widely adoption helps to find experienced companies, to offer services and consultancy, developers and users in the field. This is a key factor when choosing a new build system.
+From a business perspective, the wide adoption helps to find experienced companies, to offer services and consultancy, developers and users in the field. This is a key factor when choosing a new build system.
 
-An important consequence of a massive adoption of the Yocto Project is the  large set of diverse requirements which exercises the platform to ensure its flexibility and to guarantee a solid base of work for a plethora of products.
+An important consequence of a massive adoption of the Yocto Project is the large set of diverse requirements which exercises the platform to ensure its flexibility and to guarantee a solid base of work for a plethora of products.
 
 The giant community formed around the Yocto Project boosts its development rate, the set of supported features and the number of silicon vendors, software vendors and community projects which develop products on top of the very same platform.

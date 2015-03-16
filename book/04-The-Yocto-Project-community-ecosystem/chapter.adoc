@@ -1,6 +1,6 @@
 == The Yocto Project community ecosystem
 
-One of biggest benefits of the Yocto Project is its community ecosystem, in order to participate of this community it is important to develop the ability to properly communicate and contribute in a synergistic way.
+One of the biggest benefits of the Yocto Project is its community ecosystem.  In order to participate of this community it is important to develop the ability to properly communicate and contribute in a synergistic way.
 
 This chapter gathers:
 
