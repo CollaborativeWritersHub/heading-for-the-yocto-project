@@ -32,7 +32,7 @@ When we cannot find an answer for our doubt, the community mailing lists can be 
 
 Keep it simple:: Explain in a simple way the problem you've been facing and a simple step-by-step description on how to reproduce the issue. People on the list can guide you if the log is needed or not -- do not flood the mailing list with lot of attachments, formatted log and pictures.
 
-Be gentle:: People on the mailing list do not have the duty to help you. When they do it, they are doing in a good will.
+Be gentle:: People on the mailing list do not have the duty to help you. When they do it, they are doing in a goodwill.
 
 Make the reader's life easier:: Instead of doing a top-post, the inline replying style makes the communication much easier and effective. The use of plan text and pasting tools (to avoid attachment of logs and pictures) is also very advised.
 

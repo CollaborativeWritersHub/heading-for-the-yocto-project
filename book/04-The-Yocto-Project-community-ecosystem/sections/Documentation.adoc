@@ -8,7 +8,7 @@ link:http://www.yoctoproject.org/docs/1.7.1/yocto-project-qs/yocto-project-qs.ht
 It is likely to be the very first contact with the project's documentation as it presents the needed information to get started with the Yocto Project quickly and start building an image.
 
 link:http://www.yoctoproject.org/docs/1.7.1/dev-manual/dev-manual.html[Yocto Project Development Manual]::
-Provides an overview of image, kernel, and user-space application development using the Yocto Project and contains many references to other sources where we can find more detail as much of the information in this manual is general. TODO: reword.
+Provides an overview of common tasks for kernel and user-space development. Actually, it gathers together references to other sources where we can find the detailed information.
 
 link:http://www.yoctoproject.org/docs/1.7.1/kernel-dev/kernel-dev.html[Yocto Project Linux Kernel Development Manual]::
 Describes the Yocto Project Linux Kernel framework, how to use and customize it.
