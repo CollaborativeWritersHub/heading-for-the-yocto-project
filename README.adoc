@@ -1,4 +1,4 @@
-= Embedded Linux Development with Yocto Project Bible
+= Heading for the Yocto Project
 
 Welcome to the first edition of the Embedded Linux Development with Yocto Project Bible book.
 
@@ -12,14 +12,14 @@ To generate e-book files is to do so manually with Asciidoctor. If you run the f
 $ bundle exec rake build
 (in /repo/ypbook)
 Converting to HTML...
- -- HTML output at book/Dive-into-the-Yocto-Project.html
+ -- HTML output at book/Heading-for-the-Yocto-Project.html
 Converting to EPub...
- -- Epub output at book/Dive-into-the-Yocto-Project.epub
+ -- Epub output at book/Heading-for-the-Yocto-Project.epub
 Converting to Mobi (kf8)...
- -- Mobi output at book/Dive-into-the-Yocto-Project.mobi
+ -- Mobi output at book/Heading-for-the-Yocto-Project.mobi
 Converting to PDF... (this one takes a while)
 asciidoctor: WARNING: conversion missing in backend pdf for pass
- -- PDF  output at book/Dive-into-the-Yocto-Project.pdf
+ -- PDF  output at book/Heading-for-the-Yocto-Project.pdf
 ----
 
 This uses the `asciidoctor`, `asciidoctor-pdf` and `asciidoctor-epub` projects.

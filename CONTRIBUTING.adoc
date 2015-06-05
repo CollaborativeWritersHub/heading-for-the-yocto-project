@@ -1,4 +1,4 @@
-= Contributing to the Embedded Linux Development with Yocto Project Bible book
+= Contributing to the Heading for the Yocto Project book
 
 == Licensing
 

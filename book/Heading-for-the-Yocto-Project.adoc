@@ -1,11 +1,10 @@
-Dive into the Yocto Project
-===========================
+Heading for the Yocto Project
+=============================
 :doctype:   book
 :toc:       left
 :toclevels: 2
 :pagenums:  1
 :imagesdir: images
-//:front-cover-image: image:cover.png[Front Cover,1050,1600]
 
 include::preface.adoc[]
 
