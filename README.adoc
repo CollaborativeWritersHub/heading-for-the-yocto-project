@@ -1,6 +1,6 @@
 = Heading for the Yocto Project
 
-Welcome to the first edition of the Embedded Linux Development with Yocto Project Bible book.
+Welcome to the first edition of the Heading for the Yocto Project book.
 
 This book is open source under a Creative Commons license.
 
