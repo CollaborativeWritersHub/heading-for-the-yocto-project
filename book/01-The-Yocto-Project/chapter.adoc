@@ -3,8 +3,6 @@
 
 More and more software vendors and silicon manufactures are using the Yocto Project, bringing more users to the project, with varying backgrounds. This chapter has been crafted to be interesting for both beginners and experienced Yocto Project users, Linux enthusiasts and embedded systems lovers, as consequence.
 
-This is our first dive in the Yocto Project ocean. We still remain close to the surface staring the project ecosystem from a safe distance until we get enough practice using our equipment. In following chapters, we go deeper in our dives finding extraordinary creatures, and outstanding surprises along the way.
-
 This chapters focus in describing what the Yocto Project is, its core components and present the relationship between the Yocto Project with other projects and companies.
 
 The chapter covers the following topics:
@@ -13,8 +11,6 @@ The chapter covers the following topics:
 * What the main components of the Yocto Project are;
 * The Poky build system and its components;
 * A fraction of the history of the OpenEmbedded Project and how it ultimately got involved with the Yocto Project.
-
-So, check your equipment and dive with us!
 
 include::sections/What-the-Yocto-Project-is.adoc[]
 
@@ -28,8 +24,6 @@ include::sections/The-alliance-of-OpenEmbedded-Project-and-Yocto-Project.adoc[]
 === Summary
 :numbered:
 
-This first dive, oops, chapter, elucidates what the Yocto Project is, what the difference between the Poky and OpenEmbedded-Core build systems is and how all these projects relate to each other.
-
-The choice for a very high abstraction level description is because this may be your very first contact with Yocto Project and the relationship between all project's components is hard to grasp when we look at the Yocto Project from an inner technical perspective.
+This first chapter, elucidates what the Yocto Project is, what the difference between the Poky and OpenEmbedded-Core build systems is and how all these projects relate to each other.
 
 In the chapter <<Benefits for your products>>, we discuss the motivations that can lead you towards the Yocto Project, independently if you are an user, a developer or a company entrepreneur covering topics such as its advantages, risk reduction and platform reuse.
