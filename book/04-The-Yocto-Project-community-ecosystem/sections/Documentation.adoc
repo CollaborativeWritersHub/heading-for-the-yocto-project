@@ -4,28 +4,28 @@ The Yocto Project documentation is perfect as a long term reference, when we are
 
 A collection of well-focused documentation is available in the Yocto Project and can be seen at the link:http://www.yoctoproject.org/documentation[website] and the most commonly used ones are:
 
-link:http://www.yoctoproject.org/docs/1.7.1/yocto-project-qs/yocto-project-qs.html[Yocto Project Quick Start]::
+link:http://www.yoctoproject.org/docs/1.8/yocto-project-qs/yocto-project-qs.html[Yocto Project Quick Start]::
 It is likely to be the very first contact with the project's documentation as it presents the needed information to get started with the Yocto Project quickly and start building an image.
 
-link:http://www.yoctoproject.org/docs/1.7.1/dev-manual/dev-manual.html[Yocto Project Development Manual]::
+link:http://www.yoctoproject.org/docs/1.8/dev-manual/dev-manual.html[Yocto Project Development Manual]::
 Provides an overview of common tasks for kernel and user-space development. Actually, it gathers together references to other sources where we can find the detailed information.
 
-link:http://www.yoctoproject.org/docs/1.7.1/kernel-dev/kernel-dev.html[Yocto Project Linux Kernel Development Manual]::
+link:http://www.yoctoproject.org/docs/1.8/kernel-dev/kernel-dev.html[Yocto Project Linux Kernel Development Manual]::
 Describes the Yocto Project Linux Kernel framework, how to use and customize it.
 
-link:http://www.yoctoproject.org/docs/1.7.1/bsp-guide/bsp-guide.html[Yocto Project Board Support Package (BSP) Developer's Guide]::
+link:http://www.yoctoproject.org/docs/1.8/bsp-guide/bsp-guide.html[Yocto Project Board Support Package (BSP) Developer's Guide]::
 Defines the general guidelines and standardization for BSP metadata, tools and concepts.
 
-link:http://www.yoctoproject.org/docs/1.7.1/adt-manual/adt-manual.html[Yocto Project Application Developer's Guide]::
+link:http://www.yoctoproject.org/docs/1.8/adt-manual/adt-manual.html[Yocto Project Application Developer's Guide]::
 Provides information to get us started with the application SDK.  Handy to develop user-level application and low-level development.
 
-link:http://www.yoctoproject.org/docs/1.7.1/bitbake-user-manual/bitbake-user-manual.html[BitBake User Manual]::
+link:http://www.yoctoproject.org/docs/1.8/bitbake-user-manual/bitbake-user-manual.html[BitBake User Manual]::
 Provides usage and reference material, including the metadata syntax, for the BitBake tool.
 
-link:http://www.yoctoproject.org/docs/1.7.1/ref-manual/ref-manual.html[Yocto Project Reference Manual]::
+link:http://www.yoctoproject.org/docs/1.8/ref-manual/ref-manual.html[Yocto Project Reference Manual]::
 Provides a reference to the Yocto Project, including variables, classes and other metadata information which are of great value during day-by-day use of Yocto Project tools. Undoubtedly, the most commonly used manual.
 
-link:http://www.yoctoproject.org/docs/1.7.1/profile-manual/profile-manual.html[Yocto Project Profiling and Tracing Manual]::
+link:http://www.yoctoproject.org/docs/1.8/profile-manual/profile-manual.html[Yocto Project Profiling and Tracing Manual]::
 This document describes how to take advantage of the gathered profiling and tracing tools available in the Yocto Project.
 
 There are several benefits of joining a community, some of those can be personal others professional. It is important that you find your own way to enjoy and contribute to the community that makes sense for you and is aligned to your goals. An advice, when joining a new community, is to follow the target mailing list in order to learn how that community behaves before actually starting to contribute and, at end of the day, become part of it.
