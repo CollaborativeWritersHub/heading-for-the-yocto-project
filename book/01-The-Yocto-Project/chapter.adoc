@@ -1,11 +1,15 @@
 [[yp]]
 == The Yocto Project
 
-More and more software vendors and silicon manufactures are using the Yocto Project, bringing more users to the project, with varying backgrounds. This chapter has been crafted to be interesting for both beginners and experienced Yocto Project users, Linux enthusiasts and embedded systems lovers, as consequence.
+More and more software vendors and silicon manufactures are using the Yocto Project, bringing more users to the project, with varying backgrounds. This book aims to help everyone interested in understanding the reasons which has been driving the Yocto Project adoption without getting deeper in the technical details. The topics covered here assist in:
 
-This chapters focus in describing what the Yocto Project is, its core components and present the relationship between the Yocto Project with other projects and companies.
+* Spotting possible benefits that the Yocto Project adoption can bring for your products;
+* Choosing the best team organization and workflow for development with the Yocto Project;
+* Improving the communication within the Yocto Project's community.
 
-The chapter covers the following topics:
+Ultimately, this book intends to ease the identification of projects and companies where the Yocto Project is the ideal framework to be used.
+
+This first chapter focus in describing what the Yocto Project is, its core components and present the relationship between the Yocto Project with other projects and companies. It covers the following topics:
 
 * What the Yocto Project is;
 * What the main components of the Yocto Project are;
