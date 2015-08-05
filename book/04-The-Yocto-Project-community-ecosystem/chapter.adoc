@@ -20,4 +20,4 @@ include::sections/Documentation.adoc[]
 
 This chapter may seem as taking sand to the beach for more experienced Free Software developers or long standing professional which are used to participate to communities however it is a general material for newcomers as the community ecosystem which surrounds the Yocto Project is one of the project’s biggest benefits. It consolidates the initial steps needed to start participating the Yocto Project community, which communication channels are commonly used by the Yocto Project community and general guidelines about good-practices while communicating across these channels.
 
-Next chapter TODO is interesting as we get our hands dirt for the first time and get an image built.
+We see the Yocto Project as a very exciting project and powerful framework which can be used in a number of companies and projects. Even though the deeper technical aspects related to the Yocto Project have not been covered in this book, it helps in understanding the reasons driving its adoption and providing enough background so it does not seem to be a black box anymore.
