@@ -1,17 +1,19 @@
 === The alliance of OpenEmbedded Project and Yocto Project
 
-The OpenEmbedded Project is the precursor project of the Yocto Project. It was created around January 2003 when some core developers from the OpenZaurus Project started to work in the new build system: the _OpenEmbedded build system_.
+Around January 2003, some core developers from the OpenZaurus Project started to extend the range of devices supported by the build system, adding support for different devices. This new build system was eventually renamed as _OpenEmbedded build system_. The OpenEmbedded build system was composed by a task scheduler, called BitBake, and a set of metadata, including a huge software collection and BSP packages.
 
-The OpenEmbedded build system was composed by a task scheduler and a set of metadata, which included a huge software collection and BSP packages. The task scheduler, called BitBake, was inspired and based on the Gentoo Portage package system. The development was very agile and the project grow in a very fast pace, however, in a uncoordinated way.
+The BitBake, was inspired and based on the Gentoo Portage package system. The development was very agile and the project grow in a very fast pace. As consequence of uncoordinated development, it was difficult to use the OpenEmbedded build system in products that demanded a more stable and polished code base. This was the greatest motivation for the Poky build system creation.
 
-As consequence of uncoordinated development, it was difficult to use the OpenEmbedded build system in products that demanded a more stable and polished code base. This was the reason that drove the Poky build system creation.
+The Poky build system started as a subset of the OpenEmbedded build system focusing on a more polished and stable code base, however with a limited set of supported BSPs. Its reduced size allowed the Poky build system to start to develop eye-catching technologies, such as IDE plugins and QEMU integration, which are still in used today.
 
-The Poky build system started as a subset of the OpenEmbedded build system and had a more polished and stable code base, however with a limited set of supported BSPs. Its reduced size allowed the Poky build system to start to develop eye-catching technologies, such as IDE plugins and QEMU integration, which are still being used today.
+The Poky build system became a very attractive project for software vendors as it offered a very extensible metadata and a reliable task scheduler. This environment enabled vendors to reuse and customize metadata.
 
-Around November 2010, the Yocto Project was announced by the Linux Foundation. The Yocto Project and OpenEmbedded Project consolidated their efforts on a core build system called OpenEmbedded-Core, usually referred as _OE-Core_.
+In this scenario vendor independence raised as important aspect and, so the need for a neutral organization to manage this effort was urgent. Around November 2010, the Yocto Project was announced by the Linux Foundation.
 
-OpenEmbedded-Core was created out of the best of both original Poky and OpenEmbedded build systems, emphasizing an increased use of additional components, metadata, and sub-modules to form a _core_ build system which is common among all different OpenEmbedded-derived.
+The Yocto Project is the umbrella project which provides the infrastructure and manages the resources provided by its members. The vendor independence allows for competing vendors to work together in a common and friendly development environment. The Yocto Project and OpenEmbedded Project consolidated their efforts on a core build system called OpenEmbedded-Core, usually referred as _OE-Core_.
 
-The Poky build system has been reworked to use the OpenEmbedded-Core and the extra BSPs and configurations have been moved to a set of Yocto Project's specific metadata sub-modules. This rework eases a much bigger collaboration between OpenEmbedded Project and Yocto Project and reduces work duplication. This has become the Poky build system used by the Yocto Project.
+OpenEmbedded-Core was created out of the best of both original Poky and OpenEmbedded build systems, emphasizing and increasing the reuse of components, metadata, and sub-modules to form a _core_ build system which is common among all different OpenEmbedded-derived.
+
+The Poky build system was also reworked to use the OpenEmbedded-Core. The extra BSPs and configurations were moved to a set of Yocto Project's specific metadata sub-modules. This rework eased a much bigger collaboration between OpenEmbedded Project and Yocto Project and reduced work duplication. This is the Poky build system used by the Yocto Project as reference build system.
 
 The OpenEmbedded Project and the Yocto Project share the maintenance of OpenEmbedded-Core, pushing for a very community-driven core build system while allowing active interaction of companies through the Yocto Project contributors and Advisory Board members.
