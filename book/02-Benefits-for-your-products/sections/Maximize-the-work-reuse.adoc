@@ -1,4 +1,4 @@
-=== The wheel-reinventing disease
+=== Maximize the work reuse
 
 One of most common engineers' habit is to reinvent the wheel. Even though it can be an exciting exercise and a learning tool, sometimes it leads to work duplication and energy waste only. The wheel-reinventing disease is specially problematic when it happens inside companies, mainly if it has no relation to its core business.
 

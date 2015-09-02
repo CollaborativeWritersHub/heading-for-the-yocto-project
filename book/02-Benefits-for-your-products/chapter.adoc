@@ -9,7 +9,7 @@ In this chapter, some of the reasons why people are adopting the Yocto Project a
 * How to shorten the development effort for new products using the Yocto Project;
 * What the mechanisms available in the Yocto Project to assist companies' legal departments are.
 
-include::sections/The-wheel-reinventing-disease.adoc[]
+include::sections/Maximize-the-work-reuse.adoc[]
 
 include::sections/Risk-reduction.adoc[]
 
