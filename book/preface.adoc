@@ -1,24 +1,46 @@
+== About this booklet
+
+[cols="1,2"]
+|===
+|*Original title*
+|Heading for Yocto Project
+
+|*License*
+|Creative Commons Attribution-ShareAlike 3.0 United States License
+
+|*Author*
+|Otavio Salvador <otavio@ossystems.com.br>
+
+|*Author*
+|Daiane Angolini <angolini@gmail.com>
+
+|*Graphical design*
+|Michelle Silva <michelleosads@gmail.com>
+
+|*Booklet version*
+|Git!
+|===
+
 [preface]
 == Preface
 
-=== Conventions Used in This Book
+This booklet is being developed collaboratively. The development takes place at the https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project[GitHub] and the content is licensed under http://creativecommons.org/licenses/by-sa/3.0/us/[Creative Commons Attribution-ShareAlike 3.0 United States License].
+
+As the content of the booklet is constantly being improved we don't have an errata, instead we would be thankful if you could report any https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project/issues[issue] you find so we can address it as soon as possible. If you want to contribute, https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project/pulls[pull requests] are also welcome ;-)
+
+It is important to bear in mind that the content of this booklet is intended to help newcomers to better understand the Yocto Project goals and potential uses, intending to provide an overview of the project, before diving into the technical details on how things can be done.
+
+== Conventions Used in This Book
 
 The following typographical conventions are used in this book:
 
-_Italic_:: Indicates new terms, URLs, email addresses, file names, and
-file extensions.
+_Italic_:: Indicates new terms, URLs, email addresses, file names, and file extensions.
 
-+Constant width+:: Used for program listings, as well as within
-paragraphs to refer to program elements such as variable or function
-names, databases, data types, environment variables, statements, and
-keywords.
++Constant width+:: Used for program listings, as well as within paragraphs to refer to program elements such as variable or function names, databases, data types, environment variables, statements, and keywords.
 
-**`Constant width bold`**:: Shows commands or other text that should
-be typed literally by the user.
+**`Constant width bold`**:: Shows commands or other text that should be typed literally by the user.
 
 _++Constant width italic++_:: Shows text that should be replaced with
-user-supplied values or by values determined by context.
-
 
 TIP: This element signifies a tip or suggestion.
 
@@ -26,11 +48,10 @@ NOTE: This element signifies a general note.
 
 WARNING: This element indicates a warning or caution.
 
+== Acknowledgments
 
-=== Acknowledgments
+The people which has contributed to this book is:
 
-++++
-<!--Fill in...-->
-++++
+TODO:: generate the list of contributors
 
 :numbered:
