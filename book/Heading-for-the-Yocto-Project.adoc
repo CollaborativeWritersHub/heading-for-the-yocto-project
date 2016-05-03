@@ -1,10 +1,13 @@
 Heading for the Yocto Project
 =============================
+Otavio Salvador, Daiane Angolini
+1.0, 2016
 :doctype:   book
 :toc:       left
 :toclevels: 2
 :pagenums:  1
 :imagesdir: images
+:front-cover-image: book/cover.png
 
 include::preface.adoc[]
 
