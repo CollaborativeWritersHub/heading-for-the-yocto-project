@@ -7,9 +7,9 @@ The people involved on the development of the Yocto Project are distributed acro
 TIP: The list of all community mailing lists, including the BSP’s related ones, can be seen at:
 https://www.yoctoproject.org/tools-resources/community/mailing-lists
 
-The Yocto Project, being an umbrella for different projects, has different mailing lists for each of those projects. The most important mailing lists can be seen at table <<The Yocto Project's mailing lists>>.
+The Yocto Project, being an umbrella for different projects, has different mailing lists for each of those projects. The most important mailing lists can be seen at table <<The Yocto Project mailing lists>>.
 
-.The Yocto Project's mailing lists
+.The Yocto Project mailing lists
 [cols="2*"]
 |===
 h|Name h|Description
