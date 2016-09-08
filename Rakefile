@@ -37,15 +37,6 @@ namespace :build do
     puts " -- PDF  output at book/Heading-for-the-Yocto-Project.pdf"
   end
 
-  desc 'Generate PDF using fopub'
-  task :pdf_fopub => :prebuild do
-    puts "Converting to PDF (using fopub)..."
-    `bundle exec asciidoctor -b docbook -d book -a data-uri! book/Heading-for-the-Yocto-Project.adoc`
-    `bundle exec fopub book/Heading-for-the-Yocto-Project.xml \
-                       -param page.size a5`
-    puts " -- PDF  output at book/Heading-for-the-Yocto-Project.pdf"
-  end
-
 end
 
 desc 'Build all default formats'

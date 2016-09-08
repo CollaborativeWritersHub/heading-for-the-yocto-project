@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/asciidoctor/asciidoctor-fopub.git
-  revision: c49ad01c0169e1b73d4c3d6dfcec6f4f22ba3ad6
-  specs:
-    asciidoctor-fopub (0.0.1)
-
-GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
   revision: 64700c160c7789f8315c0af0ae9c1178e9ddbbc8
   specs:
@@ -87,7 +81,6 @@ PLATFORMS
 DEPENDENCIES
   asciidoctor
   asciidoctor-epub3
-  asciidoctor-fopub!
   asciidoctor-pdf!
   awesome_print
   coderay
