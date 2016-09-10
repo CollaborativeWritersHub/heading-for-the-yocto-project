@@ -1,7 +1,8 @@
 Heading for the Yocto Project
 =============================
 Otavio Salvador, Daiane Angolini
-1.0, 2016
+v1.0, 2016-09-08
+
 :doctype:   book
 :toc:       left
 :toclevels: 2
