@@ -12,10 +12,14 @@ v1.0, 2016-09-08
 
 include::preface.adoc[]
 
+:imagesdir: 01-The-Yocto-Project/images
 include::01-The-Yocto-Project/chapter.adoc[]
 
+:imagesdir: 02-Benefits-for-your-products/images
 include::02-Benefits-for-your-products/chapter.adoc[]
 
+:imagesdir: 03-Heading-for-Yocto-Project/images
 include::03-Heading-for-Yocto-Project/chapter.adoc[]
 
+:imagesdir: 04-The-Yocto-Project-community-ecosystem/images
 include::04-The-Yocto-Project-community-ecosystem/chapter.adoc[]

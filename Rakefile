@@ -1,35 +1,27 @@
 namespace :build do
-  desc 'prepare build'
-  task :prebuild do
-    Dir.mkdir 'book/images' unless Dir.exists? 'book/images'
-    Dir.glob("book/*/images/*").each do |image|
-      FileUtils.copy(image, "book/images/" + File.basename(image))
-    end
-  end
-
   desc 'Generate HTML output'
-  task :html => :prebuild do
+  task :html do
     puts "Converting to HTML..."
     `bundle exec asciidoctor book/Heading-for-the-Yocto-Project.adoc`
     puts " -- HTML output at book/Heading-for-the-Yocto-Project.html"
   end
 
   desc 'Generate EPub output'
-  task :epub => :prebuild do
+  task :epub do
     puts "Converting to EPub..."
     `bundle exec asciidoctor-epub3 book/Heading-for-the-Yocto-Project.adoc`
     puts " -- Epub output at book/Heading-for-the-Yocto-Project.epub"
   end
 
   desc 'Generate Mobi (kf8) output'
-  task :mobi => :prebuild do
+  task :mobi do
     puts "Converting to Mobi (kf8)..."
     `bundle exec asciidoctor-epub3 -a ebook-format=kf8 book/Heading-for-the-Yocto-Project.adoc`
     puts " -- Mobi output at book/Heading-for-the-Yocto-Project.mobi"
   end
 
   desc 'Generate PDF output'
-  task :pdf => :prebuild do
+  task :pdf do
     puts "Converting to PDF... (this one takes a while)"
     `bundle exec asciidoctor-pdf -a pdf-style=book \
                                  -a pdf-stylesdir=theme/pdf \
