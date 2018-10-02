@@ -33,3 +33,6 @@ end
 
 desc 'Build all default formats'
 task :build => [ "build:html", "build:epub", "build:mobi", "build:pdf" ]
+
+desc 'Default task'
+task :default => [ "build" ]
