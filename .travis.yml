@@ -1,3 +1,12 @@
 language: ruby
 rvm:
   - 2.5
+
+deploy:
+  provider: releases
+  api_key:
+    secure: "KMCfFrv2zwdBuwOFa4PDVdpdvJmm6AM1oqnjtZLXQMwaLJJ8MHqSok2bGg7diDRendJPojWbhS4hNgTXUVQd8lqliN1adhzsxlEeikyywnWD0yOR/aOs6i9FoPo7sZBfm9tOSWIwly0YAtE3PL4IaBG1HtNwObiaGUb8GD9BcVLSAkzsRf6mYK9PEhLfD1JvblIcKTGUcZSPsZ9LD4YsFpjdotfmHgcKxdhOhmLXRUOZ2/Ns/QH8+m7PLQUfBZSeMrTgWeT/PI5xFoOFfWkurcttO94qLANT2yB2iAAO+OnmbSkJdJ7+496R5a4hxVeNvJUASXqPWkjTjlu2WRLqmUohmhHXxDqCd6Vl0LVzG5T5SaJ94hFAjAxNDN56xDqdqNSxB1HC9RYyqCYHcK/PoXt9MrBD6+ZBAd3q7Lh367X/dhlLzV74abju+IQ8E74mnedBTHiaECCxHlJgTVbTA/tUhjMYzPyil5nmiHD/RSv9MMEaOlRhzwlccPd6nkfORqUfkI4jCwUuuIswZXEY7OhD+ATufKtiJtCoshxGwa/HVbLQJT6jxghrTKJP/n5iyQxPWtySWSjPWodJk1O6LjBzmVLtF00NqjTQ6EDOyNJ9fvTmBH75xHxKpQ9uJy60SU/bBYZWpzPYip4oavLFYBZXmOcbyfWFM9u/Nu1xbvE="
+  file: "book/Heading-for-the-Yocto-Project.pdf"
+  skip_cleanup: true
+  on:
+    tags: true
