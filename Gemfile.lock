@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: 625e8893108096c75b815442f644cbd0206d8e0c
+  revision: f05abab96795f14c3be4f3412d3a81ead70dfd8d
   specs:
     asciidoctor-pdf (1.5.0.alpha.17.dev)
       asciidoctor (>= 1.5.0)
