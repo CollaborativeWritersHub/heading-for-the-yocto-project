@@ -1,17 +1,17 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: 4d210a5a173f48e37a36dad6614ed3af1521902c
+  revision: 31b7917f5ae3d4f91048ae919c6b0f50397ffa03
   specs:
     asciidoctor-pdf (1.5.0.alpha.17.dev)
       asciidoctor (>= 1.5.0)
-      concurrent-ruby (~> 1.0.5)
+      concurrent-ruby (~> 1.0.0)
       prawn (>= 1.3.0, < 2.3.0)
       prawn-icon (= 1.4.0)
       prawn-svg (>= 0.21.0, < 0.28.0)
       prawn-table (= 0.2.2)
       prawn-templates (>= 0.0.3, <= 0.1.1)
-      safe_yaml (~> 1.0.4)
-      thread_safe (~> 0.3.6)
+      safe_yaml (~> 1.0.0)
+      thread_safe (~> 0.3.0)
       treetop (= 1.5.3)
 
 GEM
@@ -29,7 +29,7 @@ GEM
     awesome_print (1.8.0)
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
-    css_parser (1.6.0)
+    css_parser (1.7.0)
       addressable
     epubcheck (3.0.1)
     gepub (0.6.9.2)
@@ -71,7 +71,7 @@ GEM
     rake (12.3.2)
     ruby-rc4 (0.1.5)
     rubyzip (1.2.2)
-    safe_yaml (1.0.4)
+    safe_yaml (1.0.5)
     thread_safe (0.3.6)
     treetop (1.5.3)
       polyglot (~> 0.3)
