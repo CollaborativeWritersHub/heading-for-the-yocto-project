@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: ceb27aebf98692eac692f1e360fbf7a3973a23e6
+  revision: 616d566e42579462ec1d3711981a5ef78c44c2c2
   specs:
-    asciidoctor-pdf (1.5.0.beta.4.dev)
+    asciidoctor-pdf (1.5.0.rc.1.dev)
       asciidoctor (>= 1.5.3, < 3.0.0)
       concurrent-ruby (~> 1.1.0)
       prawn (~> 2.2.0)
