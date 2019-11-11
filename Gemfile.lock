@@ -1,12 +1,12 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: ceb27aebf98692eac692f1e360fbf7a3973a23e6
+  revision: cc9fff8fcfb0222616bb32632de472e647e166d3
   specs:
-    asciidoctor-pdf (1.5.0.beta.4.dev)
+    asciidoctor-pdf (1.5.0.rc.1.dev)
       asciidoctor (>= 1.5.3, < 3.0.0)
       concurrent-ruby (~> 1.1.0)
       prawn (~> 2.2.0)
-      prawn-icon (~> 2.4.0)
+      prawn-icon (~> 2.5.0)
       prawn-svg (~> 0.29.0)
       prawn-table (~> 0.2.0)
       prawn-templates (~> 0.1.0)
@@ -46,7 +46,7 @@ GEM
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     pdf-core (0.7.0)
-    pdf-reader (2.2.1)
+    pdf-reader (2.3.0)
       Ascii85 (~> 1.0.0)
       afm (~> 0.2.1)
       hashery (~> 2.0)
@@ -56,7 +56,7 @@ GEM
     prawn (2.2.2)
       pdf-core (~> 0.7.0)
       ttfunk (~> 1.5)
-    prawn-icon (2.4.0)
+    prawn-icon (2.5.0)
       prawn (>= 1.1.0, < 3.0.0)
     prawn-svg (0.29.1)
       css_parser (~> 1.6)
