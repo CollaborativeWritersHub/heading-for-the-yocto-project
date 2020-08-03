@@ -37,7 +37,7 @@ GEM
       rubyzip (> 1.1.1, < 2.3)
     hashery (2.1.2)
     json (2.2.0)
-    kindlegen (3.0.3)
+    kindlegen (3.0.5)
       rake
       rubyzip
     mime-types (3.3.1)
