@@ -37,9 +37,6 @@ GEM
       rubyzip (> 1.1.1, < 2.3)
     hashery (2.1.2)
     json (2.3.1)
-    kindlegen (3.0.5)
-      rake
-      rubyzip
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0512)
@@ -91,7 +88,6 @@ DEPENDENCIES
   coderay
   epubcheck
   json
-  kindlegen
   pygments.rb
   rake
   thread_safe

@@ -13,4 +13,4 @@ gem 'coderay'
 gem 'pygments.rb'
 gem 'thread_safe'
 gem 'epubcheck'
-gem 'kindlegen'
+

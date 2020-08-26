@@ -32,7 +32,7 @@ namespace :build do
 end
 
 desc 'Build all default formats'
-task :build => [ "build:html", "build:epub", "build:mobi", "build:pdf" ]
+task :build => [ "build:html", "build:epub", "build:pdf" ]
 
 desc 'Default task'
 task :default => [ "build" ]
