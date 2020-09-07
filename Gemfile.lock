@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: 404dcad36849c26f35062924741980624b056d31
+  revision: 0aa4d8f642d7545e4016f2106458510d8409c8a5
   specs:
     asciidoctor-pdf (2.0.0.dev)
       asciidoctor (~> 2.0)
@@ -65,7 +65,7 @@ GEM
     prawn-templates (0.1.2)
       pdf-reader (~> 2.0)
       prawn (~> 2.2)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
     rake (13.0.1)
@@ -73,7 +73,7 @@ GEM
     rubyzip (2.2.0)
     safe_yaml (1.0.5)
     thread_safe (0.3.6)
-    treetop (1.6.10)
+    treetop (1.6.11)
       polyglot (~> 0.3)
     ttfunk (1.6.2.1)
 
