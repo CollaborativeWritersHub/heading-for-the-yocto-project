@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: 746701d51e0c23efbb96b9cc37a9d301fdc2c96a
+  revision: a9cf69d163a73d4b845c859a2419bd92c6b65a66
   specs:
     asciidoctor-pdf (2.0.0.dev)
       asciidoctor (~> 2.0)
@@ -11,7 +11,6 @@ GIT
       prawn-table (~> 0.2.0)
       prawn-templates (~> 0.1.0)
       safe_yaml (~> 1.0.0)
-      thread_safe (~> 0.3.0)
       treetop (~> 1.6.0)
 
 GEM
@@ -45,7 +44,7 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     pdf-core (0.8.1)
-    pdf-reader (2.4.0)
+    pdf-reader (2.4.1)
       Ascii85 (~> 1.0.0)
       afm (~> 0.2.1)
       hashery (~> 2.0)
