@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: 079c81a03acbac358419ccd238d44653fa562b80
+  revision: 9e3b545c0535efad654c6d243bf5aea8691557da
   specs:
     asciidoctor-pdf (2.0.0.dev)
       asciidoctor (~> 2.0)
@@ -27,8 +27,8 @@ GEM
       mime-types (~> 3.0)
     awesome_print (1.8.0)
     coderay (1.1.3)
-    concurrent-ruby (1.1.7)
-    css_parser (1.7.1)
+    concurrent-ruby (1.1.8)
+    css_parser (1.8.0)
       addressable
     epubcheck (3.0.1)
     gepub (1.0.11)
