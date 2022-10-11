@@ -1,50 +1,46 @@
-GIT
-  remote: https://github.com/asciidoctor/asciidoctor-pdf.git
-  revision: 6db8161a6818d68c106a0d9812d5bd1bda30661c
-  specs:
-    asciidoctor-pdf (2.0.0.dev)
-      asciidoctor (~> 2.0)
-      concurrent-ruby (~> 1.1)
-      prawn (~> 2.4.0)
-      prawn-icon (~> 3.0.0)
-      prawn-svg (~> 0.31.0)
-      prawn-table (~> 0.2.0)
-      prawn-templates (~> 0.1.0)
-      safe_yaml (~> 1.0.0)
-      treetop (~> 1.6.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.1.0)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
     asciidoctor (2.0.17)
     asciidoctor-epub3 (1.5.1)
       asciidoctor (>= 1.5.6, < 3.0.0)
       gepub (~> 1.0.0)
       mime-types (~> 3.0)
+    asciidoctor-pdf (2.3.2)
+      asciidoctor (~> 2.0)
+      concurrent-ruby (~> 1.1)
+      matrix (~> 0.4)
+      prawn (~> 2.4.0)
+      prawn-icon (~> 3.0.0)
+      prawn-svg (~> 0.32.0)
+      prawn-table (~> 0.2.0)
+      prawn-templates (~> 0.1.0)
+      treetop (~> 1.6.0)
     awesome_print (1.9.2)
     coderay (1.1.3)
-    concurrent-ruby (1.1.8)
-    css_parser (1.9.0)
+    concurrent-ruby (1.1.10)
+    css_parser (1.12.0)
       addressable
     epubcheck (3.0.1)
     gepub (1.0.15)
       nokogiri (>= 1.8.2, < 2.0)
       rubyzip (> 1.1.1, < 2.4)
     hashery (2.1.2)
-    json (2.6.1)
-    mime-types (3.3.1)
+    json (2.6.2)
+    matrix (0.4.2)
+    mime-types (3.4.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0225)
+    mime-types-data (3.2022.0105)
     mini_portile2 (2.8.0)
-    nokogiri (1.13.3)
+    nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pdf-core (0.9.0)
-    pdf-reader (2.4.2)
+    pdf-reader (2.10.0)
       Ascii85 (~> 1.0)
       afm (~> 0.2.1)
       hashery (~> 2.0)
@@ -56,21 +52,22 @@ GEM
       ttfunk (~> 1.7)
     prawn-icon (3.0.0)
       prawn (>= 1.1.0, < 3.0.0)
-    prawn-svg (0.31.0)
+    prawn-svg (0.32.0)
       css_parser (~> 1.6)
       prawn (>= 0.11.1, < 3)
+      rexml (~> 3.2)
     prawn-table (0.2.2)
       prawn (>= 1.3.0, < 3.0.0)
     prawn-templates (0.1.2)
       pdf-reader (~> 2.0)
       prawn (~> 2.2)
-    public_suffix (4.0.6)
+    public_suffix (5.0.0)
     pygments.rb (2.3.0)
     racc (1.6.0)
     rake (13.0.6)
+    rexml (3.2.5)
     ruby-rc4 (0.1.5)
     rubyzip (2.3.2)
-    safe_yaml (1.0.5)
     thread_safe (0.3.6)
     treetop (1.6.11)
       polyglot (~> 0.3)
@@ -82,7 +79,7 @@ PLATFORMS
 DEPENDENCIES
   asciidoctor
   asciidoctor-epub3
-  asciidoctor-pdf!
+  asciidoctor-pdf
   awesome_print
   coderay
   epubcheck
@@ -92,4 +89,4 @@ DEPENDENCIES
   thread_safe
 
 BUNDLED WITH
-   2.1.4
+   2.3.22
