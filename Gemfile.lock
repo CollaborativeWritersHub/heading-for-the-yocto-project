@@ -10,7 +10,7 @@ GEM
       asciidoctor (>= 1.5.6, < 3.0.0)
       gepub (~> 1.0.0)
       mime-types (~> 3.0)
-    asciidoctor-pdf (2.3.2)
+    asciidoctor-pdf (2.3.3)
       asciidoctor (~> 2.0)
       concurrent-ruby (~> 1.1)
       matrix (~> 0.4)
