@@ -30,7 +30,7 @@ GEM
       nokogiri (>= 1.8.2, < 2.0)
       rubyzip (> 1.1.1, < 2.4)
     hashery (2.1.2)
-    json (2.6.2)
+    json (2.6.3)
     matrix (0.4.2)
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
