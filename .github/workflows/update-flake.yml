@@ -1,0 +1,32 @@
+name: update-flake
+
+on:
+  schedule:
+    - cron: "0 3 1 * *" # 03:00 on the first day of every month
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: ossystems/nix-actions/update-flake@v1
+        with:
+          base-branch: master
+          install-nix: true
+          pr-title: "Update flake.lock and the Ruby gems"
+          # The action bumps flake.lock first. post-run then refreshes the gems
+          # against that new nixpkgs, so both land in one PR and gemset.nix can
+          # never drift from Gemfile.lock again.
+          export-devshell: true
+          devshell: .#update
+          post-run: |
+            set -euo pipefail
+            bundle lock --update
+            bundix
+            nix fmt
+          # The PR is opened with GITHUB_TOKEN, so GitHub does not start CI on
+          # it. Auto-merge would land an untested update.
+          auto-merge: false
