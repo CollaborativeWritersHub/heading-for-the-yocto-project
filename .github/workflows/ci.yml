@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+    tags: ["*"]
+  pull_request:
+    types: [opened, ready_for_review, synchronize]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # attach the book to the release on a tag push
+    steps:
+      # Runs `nix flake check`, builds the dev shell, then builds the book
+      # inside it with the exact gems the flake pins.
+      - uses: ossystems/nix-actions@v1
+        with:
+          install-nix: true
+          run: rake build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: book
+          if-no-files-found: error
+          path: |
+            book/Heading-for-the-Yocto-Project.html
+            book/Heading-for-the-Yocto-Project.epub
+            book/Heading-for-the-Yocto-Project.pdf
+
+      - name: Attach the book to the release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            book/Heading-for-the-Yocto-Project.html
+            book/Heading-for-the-Yocto-Project.epub
+            book/Heading-for-the-Yocto-Project.pdf
