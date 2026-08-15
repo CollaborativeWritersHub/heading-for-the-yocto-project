@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === License compliance and management
 
 The Yocto Project aids the license compliance and management in products. It does not inform us what is required to be compliant with one or more licenses, but it produces a set of outputs which help our legal team and technical department to do that.

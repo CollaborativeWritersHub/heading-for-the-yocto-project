@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 == About this booklet
 
 [cols="1,2"]
@@ -6,7 +7,7 @@
 |Heading for Yocto Project
 
 |*License*
-|Creative Commons Attribution-ShareAlike 3.0 United States License
+|{license-name}
 
 |*Author*
 |Otavio Salvador <otavio@ossystems.com.br>
@@ -24,7 +25,7 @@
 [preface]
 == Preface
 
-This booklet is being developed collaboratively. The development takes place at the https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project[GitHub] and the content is licensed under http://creativecommons.org/licenses/by-sa/3.0/us/[Creative Commons Attribution-ShareAlike 3.0 United States License].
+This booklet is being developed collaboratively. The development takes place at the https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project[GitHub] and the content is licensed under {license-url}[{license-name}].
 
 As the content of the booklet is constantly being improved we don't have an errata, instead we would be thankful if you could report any https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project/issues[issue] you find so we can address it as soon as possible. If you want to contribute, https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project/pulls[pull requests] are also welcome ;-)
 

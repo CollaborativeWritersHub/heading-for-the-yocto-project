@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === The Yocto Project's communication channels
 
 The Yocto Project community has a lot of similarities with the Linux kernel community as it congregates companies, other open source projects and individuals. For someone used to participate on these communities, it may be clear how to act, however it is important to bear in mind that each community has its own particularities and communication channels.

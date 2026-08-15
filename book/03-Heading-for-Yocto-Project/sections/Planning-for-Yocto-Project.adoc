@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === Planning for Yocto Project
 
 There are several distinct approaches used in software development. A common phase in most of them is the feature specification, which is critical for the understanding of all involved requirements.

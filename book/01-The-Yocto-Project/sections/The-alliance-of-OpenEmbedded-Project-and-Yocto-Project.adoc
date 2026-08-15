@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === The alliance of OpenEmbedded Project and Yocto Project
 
 Around January 2003, some core developers from the OpenZaurus Project started to extend the range of devices supported by the build system, adding support for different devices. This new build system was eventually renamed as _OpenEmbedded build system_. The OpenEmbedded build system was composed by a task scheduler, called BitBake, and a set of metadata, including a huge software collection and BSP packages.

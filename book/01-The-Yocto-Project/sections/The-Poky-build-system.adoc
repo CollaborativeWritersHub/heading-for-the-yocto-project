@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === The Poky build system
 
 The Yocto Project computing machine represented in <<yp-input-output>> refers to the Yocto Project's reference build system, called _Poky_, which is composed by a set of files to provide the information required for the build orchestration tool's work.
