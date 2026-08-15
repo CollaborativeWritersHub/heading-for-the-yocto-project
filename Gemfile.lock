@@ -65,7 +65,7 @@ GEM
     pygments.rb (2.3.0)
     racc (1.8.1)
     rake (13.0.6)
-    rexml (3.2.5)
+    rexml (3.4.2)
     ruby-rc4 (0.1.5)
     rubyzip (2.3.2)
     thread_safe (0.3.6)
