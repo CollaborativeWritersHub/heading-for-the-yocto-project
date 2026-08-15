@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 == Heading for Yocto Project
 
 At first glance, the way our companies and projects may use the Yocto Project are not obvious because it is very flexible and adapts to different team sizes and workflows and it is usually seen just as a task automation tool.

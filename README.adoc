@@ -1,8 +1,9 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 = Heading for the Yocto Project
 
 Welcome to the first edition of the Heading for the Yocto Project book.
 
-This book is open source under a Creative Commons license.
+This book is free content. It is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (`CC-BY-SA-4.0`). See the link:LICENSE[LICENSE] file for the full terms.
 
 == How To Generate the Book
 

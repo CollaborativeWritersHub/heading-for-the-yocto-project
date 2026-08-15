@@ -1,8 +1,9 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 = Contributing to the Heading for the Yocto Project book
 
 == Licensing
 
-By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.adoc).
+By opening a pull request to this repository, you agree to provide your work under the link:LICENSE[project license], the Creative Commons Attribution-ShareAlike 4.0 International License (`CC-BY-SA-4.0`).
 
 Also, you agree to grant such license of your work as is required for the purposes of future print editions to @otavio and @angolini.
 

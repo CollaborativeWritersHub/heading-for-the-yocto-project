@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === The Yocto Project seen as a Computing Machine
 
 A simple way to understand what the results of Yocto Project are is to represent it as a computing machine. In short, we need to describe our requirements to the Yocto Project tools, those are interpreted and the desired set of outputs are generated. A basic overview of the process done can be seen in <<yp-input-output>>:

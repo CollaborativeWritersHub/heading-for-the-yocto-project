@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 == Benefits for your products
 
 The Yocto Project has been adopted by several companies, organizations and individuals. But why?

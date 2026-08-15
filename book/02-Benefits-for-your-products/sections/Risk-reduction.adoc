@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === Risk reduction
 
 We assume risks all the time. As in life, we should mitigate them when working on product development. The Yocto Project use helps us to reduce some risks.

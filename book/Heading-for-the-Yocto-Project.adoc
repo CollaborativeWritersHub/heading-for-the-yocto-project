@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 Heading for the Yocto Project
 =============================
 Otavio Salvador, Daiane Angolini
@@ -7,7 +8,12 @@ v1.0, 2016-09-08
 :toclevels: 2
 :pagenums:  1
 :front-cover-image: image:cover.png[]
-:copyright: CC-BY-SA 3.0
+// The license is stated once here. Every other place in the book uses
+// these attributes, so the statements cannot drift apart.
+:license-id:   CC-BY-SA-4.0
+:license-name: Creative Commons Attribution-ShareAlike 4.0 International License
+:license-url:  https://creativecommons.org/licenses/by-sa/4.0/
+:copyright: {license-id}
 
 include::preface.adoc[]
 

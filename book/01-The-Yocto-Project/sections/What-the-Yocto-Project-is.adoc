@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 === What the Yocto Project is
 
 The Yocto Project started as a collaboration of many hardware manufacturers, open source operating systems, vendors, and electronics companies in 2010. The driving force for the workgroup creation was the necessity to reduce their work duplication, providing resources and information catering to both new and experienced users. The Yocto Project is a Linux Foundation workgroup and is defined as:
