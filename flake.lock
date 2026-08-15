@@ -1,63 +1,77 @@
 {
   "nodes": {
-    "devshell": {
-      "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
+    "adios": {
       "locked": {
-        "lastModified": 1663445644,
-        "narHash": "sha256-+xVlcK60x7VY1vRJbNUEAHi17ZuoQxAIH4S4iUFUGBA=",
-        "owner": "numtide",
-        "repo": "devshell",
-        "rev": "e3dc3e21594fe07bdb24bdf1c8657acaa4cb8f66",
+        "lastModified": 1772186395,
+        "narHash": "sha256-NshyMZYZwjKMLKEX0eDf9Fcekq8MFNFk02wW5knzlZU=",
+        "owner": "adisbladis",
+        "repo": "adios",
+        "rev": "6a54071689ec9ec784a16e4eec8ddb864eca2982",
         "type": "github"
       },
       "original": {
-        "owner": "numtide",
-        "repo": "devshell",
+        "owner": "adisbladis",
+        "repo": "adios",
         "type": "github"
       }
     },
-    "flake-utils": {
+    "adios-flake": {
+      "inputs": {
+        "adios": "adios"
+      },
       "locked": {
-        "lastModified": 1659877975,
-        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "lastModified": 1772646328,
+        "narHash": "sha256-0xwNbjvHON8LqhIx5VMPZpR1B5Unq/7BH6tktELwRyA=",
+        "owner": "Mic92",
+        "repo": "adios-flake",
+        "rev": "6082a7bf428fe6c29b80c8ef4582ffce46cfea77",
         "type": "github"
       },
       "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
+        "owner": "Mic92",
+        "repo": "adios-flake",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1665520658,
-        "narHash": "sha256-5WWQivDZ7xhTP7phbXAlb2eeVhVEKr8et9RqQxcEEes=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "cded5ae4dfc9443edb867537a7ad5b320eb02d79",
-        "type": "github"
+        "lastModified": 1786599213,
+        "narHash": "sha256-yjGG65gA1jORt0hWxjzrnw3AYkIn8EWolp8vezwXZ3I=",
+        "rev": "0e251e24a4f24e036a084b6b4b2d2491af4167f4",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1053317.0e251e24a4f2/nixexprs.tar.xz"
       },
       "original": {
         "id": "nixpkgs",
-        "ref": "release-22.05",
+        "ref": "nixos-unstable",
         "type": "indirect"
+      }
+    },
+    "red-tape": {
+      "inputs": {
+        "adios-flake": "adios-flake",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1774285314,
+        "narHash": "sha256-ad5J3MsK11stsDfR0no6zr6K/c7Rr8HCQFpVw1ixmLA=",
+        "owner": "phaer",
+        "repo": "red-tape",
+        "rev": "5ad2da408cc59621dfedd2d9256e0b6c082256c6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "phaer",
+        "repo": "red-tape",
+        "type": "github"
       }
     },
     "root": {
       "inputs": {
-        "devshell": "devshell",
-        "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "red-tape": "red-tape"
       }
     }
   },
