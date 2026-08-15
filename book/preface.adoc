@@ -51,8 +51,8 @@ WARNING: This element indicates a warning or caution.
 
 == Acknowledgments
 
-The people which has contributed to this book is:
+These people have contributed to this book:
 
-TODO:: generate the list of contributors
+include::contributors.adoc[]
 
 :numbered:

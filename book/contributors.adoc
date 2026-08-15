@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
+//
+// The names below come from the git history of this repository. To list the
+// contributors again, run:
+//
+//   git log --format='%an' | grep -viE 'dependabot|\[bot\]' | sort -u
+//
+// That command sorts by given name. The list below is ordered by family
+// name, so place new contributors by hand.
+
+* Daiane Angolini
+* Changhyeok Bae
+* André Glória
+* Mario Domenech Goulart
+* Otavio Salvador
+* Michelle Silva
